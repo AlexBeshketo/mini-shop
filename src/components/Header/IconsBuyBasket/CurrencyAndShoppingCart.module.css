@@ -1,0 +1,96 @@
+
+
+.icons_basket {
+    width: 30px;
+    height: 15px;
+    color: #43464E;
+}
+
+
+
+.flex_icon {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.flex_icon svg:hover,:active {
+    cursor: pointer;
+}
+
+.buy_iconthree {
+    position: absolute;
+    top: 0;
+    left: 10%;
+
+}
+
+.buy_iconthree:hover,:active {
+    cursor: pointer;
+}
+
+
+/*///sort*/
+
+.popup {
+    position: absolute;
+    right: 0;
+    margin-top: 15px;
+    background: #ffffff;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.09);
+
+    overflow: hidden;
+    padding: 0px 0;
+    width: 114px;
+
+    top: 100%;
+    z-index: 0;
+}
+
+.popup ul {
+    overflow: hidden;
+}
+
+.popup  li {
+    padding: 12px 20px;
+
+
+    /*width: 114px;*/
+    height: 45px;
+
+    list-style-type: none;
+
+}
+.popup li:active,
+.popup  li:hover {
+    background: #EEEEEE;
+    cursor: pointer;
+}
+
+
+
+.relative {
+    position: relative;
+}
+
+.cursor_pointer{
+    cursor: pointer;
+}
+
+.list {
+display: flex;
+    justify-content: space-around;
+}
+
+
+
+/*/// miniCart///*/
+
+
+.visibleCart {
+    width:400px;
+    height: 300px;
+    border: 1px solid black;
+}
+

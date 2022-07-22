@@ -1,0 +1,134 @@
+
+a {
+    text-decoration: none;
+}
+
+
+.main {
+    padding-top: 80px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+
+}
+
+
+.container_full {
+    /*width: 1440px;*/
+    /*height: 1513px;*/
+    /*border: 1px solid black;*/
+
+    margin: 0 auto;
+}
+
+/*.container {*/
+
+/*    width: 1240px;*/
+/*    height: 1513px;*/
+/*    margin: 0 auto;*/
+
+/*    border: 1px solid;*/
+/*}*/
+
+.container_full {
+    width: 100%;
+    /*height: 100%;*/
+}
+
+/*.container {*/
+/*    border: 1px solid black;*/
+/*}*/
+
+
+
+
+/*//categories*/
+
+.categories {
+
+    width: 299px;
+    height: 68px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 160%;
+}
+
+.container_main {
+    padding-top: 103px;
+
+}
+
+.container_wrapper {
+    display: flex;
+    flex-wrap: wrap;
+
+    justify-content: center;
+}
+
+
+/*items*/
+
+.items_bottom_margin {
+    margin-bottom: 103px;
+}
+
+.items_container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+    padding: 16px;
+
+    width: 386px;
+    height: 444px;
+
+    border: 1px solid black;
+
+    /*flex: 1 3 auto;*/
+    margin: 0 40px 0 0;
+}
+
+.items_flex {
+    padding-right: 40px;
+}
+
+.items_photo img {
+    width: 354px;
+    height: 330px;
+}
+
+.items_title {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 160%;
+}
+
+.items_price {
+    margin-top: 5px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 160%;
+    /* identical to box height, or 29px */
+
+
+}
+
+.items_text {
+    padding-top: 24px;
+}
+
+
+/*///sort*/
+
+
+
+

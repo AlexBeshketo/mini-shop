@@ -1,0 +1,166 @@
+
+.header_container {
+    padding: 26px 30px 26px 30px;
+    margin: 0 auto;
+    /*padding: 28px  ;*/;
+}
+
+.flex_list {
+
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.list span {
+
+    font-family: 'Raleway';
+    list-style-type: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+    /* identical to box height, or 19px */
+
+    margin-right: 32px;
+
+    text-transform: uppercase;
+}
+
+.list span:hover, active {
+    cursor: pointer;
+    color: #dedada;
+}
+
+
+.list > span {
+    position: relative; /* Относительное позиционирование */
+    display: inline-block;
+}
+
+.list>span:hover::after {
+    content: '';
+    position: absolute; /* Абсолютное позиционирование */
+    background: #5ECE7B;
+    left:0;
+    right: 40px;
+    bottom: -20px; /* Положение линии */
+    width: 100%; /* Линия на ширину текста */
+    height: 2px; /* Высота линии */
+}
+
+.buy_icon {
+    display: inline-block;
+    padding-right: 38px;
+}
+
+.icons {
+    width: 12px;
+    height: 29px;
+}
+
+.buy_icon_greenBasket {
+    width: 31.18px;
+    height: 28.62px;
+
+}
+
+.buy_icon_greenBasket:hover{
+ cursor: pointer;
+}
+
+/*icons*/
+.buy_valiute_icons {
+    display: inline-block;
+}
+
+
+.buy_icon {
+    position: relative;
+}
+
+
+.buy_iconthree {
+    position: absolute;
+    top: -4px;
+    left: -30px;
+}
+
+
+.icons_valiute {
+    width: 12px;
+    height: 18px;
+
+}
+
+/*icons_valiute*/
+.icons_basket {
+    width: 30px;
+    height: 15px;
+    color: #43464E;
+}
+
+
+.flex_icon {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.array {
+
+}
+
+
+/*///sort*/
+
+.popup {
+    position: absolute;
+    right: 0;
+    margin-top: 15px;
+    background: #ffffff;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.09);
+
+    overflow: hidden;
+    padding: 10px 0;
+    width: 114px;
+
+
+    z-index: 0;
+}
+
+.popup ul {
+    overflow: hidden;
+}
+
+.popup li {
+    padding: 12px 20px;
+
+
+    width: 114px;
+    height: 45px;
+
+    list-style-type: none;
+
+}
+
+.popup li:active,
+.popup li:hover {
+    background: #EEEEEE;
+}
+
+.popup ul li:active {
+    font-weight: bold;
+    color: orange;
+}
+
+.relative {
+    position: relative;
+}
+
+
+.list {
+
+}

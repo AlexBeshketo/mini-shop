@@ -1,0 +1,365 @@
+
+.main {
+    /*width: 100%;*/
+    /*margin: 0 auto;*/
+    /*border: 1px solid black;*/
+
+}
+
+
+.container {
+    padding: 80px 0px 274px 0px;
+    /*width: 80%;*/
+    /*margin: 0 auto;*/
+    /*border: 1px solid black;*/
+    /*padding: 28px  ;*/;
+}
+
+
+.title {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+
+    padding-bottom: 55px;
+
+    text-transform: uppercase;
+}
+
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #E5E5E5;
+    border-bottom: 1px solid #E5E5E5;
+
+    padding: 24px 0px 24px 0px;
+}
+
+/*//flex_1*/
+
+
+.flex_title_main {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 27px;
+
+    padding-bottom: 16px;
+}
+
+.flex_title {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 27px;
+}
+
+
+.flex_prices {
+    padding-top: 20px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 24px;
+}
+
+
+.flex_sizes {
+    padding-top: 43px;
+    width: 100%;
+
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 18px;
+
+    text-transform: uppercase;
+}
+
+
+/*!!!!!!!!*/
+/*.flex_sizes_choose {*/
+/*    background-color:#2B2B2B ;*/
+/*    color: #FFFFFF;*/
+/*}*/
+
+
+.flex_sizes_icons {
+    display: flex;
+    flex-wrap: wrap;
+
+    padding-top: 8px;
+
+    /*justify-content: space-between;*/
+}
+
+.flex_sizes_icons div:nth-child(n+2) {
+    margin-left: 15px;
+}
+
+
+.flex_sizes_default {
+    padding: 10px 20px 10px 20px;
+
+    letter-spacing: 0.05em;
+    color: #1D1F22;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+
+    border: 1px solid #1D1F22;;
+}
+
+.flex_sizes_icons_xs:after {
+    content: 'XS';
+}
+
+.flex_sizes_icons_s:after {
+    content: 'S';
+}
+
+.flex_sizes_icons_m:after {
+    content: 'M';
+}
+
+.flex_sizes_icons_l:after {
+    content: 'L';
+}
+
+/*//flex-colors*/
+
+.flex_colors_default {
+    width: 63px;
+    height: 45px;
+}
+
+.flex_colors_default:hover, active {
+    border: 3px solid #6c937c;
+    cursor: pointer;
+}
+
+
+.flex_colors {
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 18px;
+
+    text-transform: uppercase;
+}
+
+
+.flex_colors_flex {
+    padding-top: 10px;
+
+    display: flex;
+    justify-content: start;
+}
+
+.flex_colors_title {
+    padding-top: 24px;
+
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 18px;
+    /* identical to box height, or 100% */
+
+
+    color: #1D1F22;
+}
+
+.flex_colors_default {
+    border: 1px solid #000000;
+    /*border: 1px solid #5ECE7B;*/
+    margin: 0 8px 0 0;
+
+    width: 32px;
+    height: 32px;
+
+}
+
+.flex_colors_white {
+    background: #D3D2D5;
+}
+
+.flex_colors_black {
+    background: #2B2B2B;
+}
+
+.flex_colors_green {
+
+    background: #0F6450;
+}
+
+
+/*///flex_1 price*/
+
+.flex_1_price {
+    padding-top: 36px;
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 18px;
+
+    text-transform: uppercase;
+}
+
+
+/*flex-2*/
+
+
+.flex_2 {
+    height: 100%;
+    padding: 10px 24px 10px 0;
+
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flex_2_count {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 160%;
+}
+
+.flex_2_counters {
+    border: 1px solid #1D1F22;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    width: 45px;
+    height: 45px;
+    padding: 22.5px 15px 22.5px 15px;
+}
+
+.flex_2_counters:hover {
+    background-color: #d3d1d1;
+    cursor: pointer;
+}
+
+.flex_2_counters {
+    font-size: 15px;
+    /*background-color: black;*/
+}
+
+
+/*flex 2_3 container*/
+
+.flex_2_3 {
+    display: flex;
+    justify-content: flex-end;
+
+    align-items: center;
+}
+
+
+/*flex-3*/
+
+.flex_3 {
+    /*width: 60%;*/
+    /*height: 100%;*/
+    /*width: 121px;*/
+    /*height: 190px;*/
+
+
+}
+
+.flex_3_pic {
+    /*flex: 1 1 auto;*/
+}
+
+.flex_3_pic img {
+    width: 200px;
+    height: 288px;
+}
+
+
+/*///generalPrice//*/
+
+.generalPrice {
+    padding-top: 35px;
+
+    display: flex;
+
+    align-items: center;
+}
+
+.generalPrice_left_flex div {
+
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+
+    padding-bottom: 3px;
+}
+
+.generalPrice_right_flex div {
+    padding-left: 5px;
+
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 24px;
+
+    padding-bottom: 6px;
+
+
+}
+
+.generalPrice div {
+
+}
+
+
+/*//buttons*/
+
+.button {
+    padding-top: 20px;
+}
+
+button {
+    padding: 13px 115.5px 13px 115.5px;
+
+    border: none;
+    background: #5ECE7B;
+}
+
+
+
+button span {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 120%;
+
+    width: 279px;
+    height: 43px;
+
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
